@@ -5,7 +5,8 @@ MCU      = cortex-m3
 SUBMDL   = stm32f103
 
 # toolchain (using code sourcery now)
-TCHAIN = arm-none-eabi
+#TCHAIN = arm-none-eabi
+TCHAIN = /home/tom/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi
 THUMB    = -mthumb
 THUMB_IW = -mthumb-interwork
 
